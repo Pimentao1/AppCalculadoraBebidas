@@ -19,15 +19,13 @@ Neste app você poderá fazer um calculo rápido de quantos litros será necess�
 ├── app
 │   ├── src
 │   │   ├── main
-│   │   │  ├── java/br/com/senacrs/usuario/appcadastro
-│   │   │  │  ├── MainActivity.java          # Atividade principal com appCadastro
-│   │   │  │  ├── Registro.java
-│   │   │  │  ├── TelaCadastroUsuario.java
-│   │   │  │  ├── TelaListagemUsuarios.java
-│   │   │  │  ├── TelaPrincipal.java
+│   │   │  ├── java/br/ulbra/appcalculadorabebidas
+│   │   │  │  ├── MainActivity.java         # Atividade principal com AppCalculadoraBebidas
+│   │   │  │  ├── Resultado.java
 │   │   │  ├── res
 │   │   │  │   ├── layout
 │   │   │  │   │   ├── activity_main.xml     #Layout da tela principal
+│   │   │  │   │   ├── resultado.xml
 │   │   │  │   └── values
 │   │   │  │       ├── strings.xml           # Strings usadas no app
 │   │   │  │       ├── colors.xml            # Cores definidas no projeto
@@ -35,7 +33,6 @@ Neste app você poderá fazer um calculo rápido de quantos litros será necess�
 └── README.md                                # Este arquivo
 ```
 
- 
 ## 🎨 Design e Prototipagem
  
 O design é minimalista e fácil de usar, com foco na simplicidade.
