@@ -3,75 +3,61 @@
 
 # Sobre o projeto
 
-https://wmazoni-sds1.netlify.app
-
-Big Game Survey é uma aplicação full stack web e mobile construída durante a 1ª edição da **Semana DevSuperior** (#sds1), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
-
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
+Neste app você poderá fazer um calculo rápido de quantos litros será necessário para sua festa, tanto de água como de refrigerante e suco.
 
 ## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+![image](https://github.com/user-attachments/assets/a02acd62-ff64-4cc1-990b-d77d20c2ad4f)
 
-## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
 
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
 
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+## Layout Calculo
+![image](https://github.com/user-attachments/assets/d9a614dc-7c11-4d23-b65c-9876831666fb)
 
-# Tecnologias utilizadas
-## Back end
-- Java
-- Spring Boot
-- JPA / Hibernate
-- Maven
-## Front end
-- HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
-- Apex Charts
-- Expo
-## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
 
+
+```bash
+├── app
+│   ├── src
+│   │   ├── main
+│   │   │  ├── java/br/com/senacrs/usuario/appcadastro
+│   │   │  │  ├── MainActivity.java          # Atividade principal com appCadastro
+│   │   │  │  ├── Registro.java
+│   │   │  │  ├── TelaCadastroUsuario.java
+│   │   │  │  ├── TelaListagemUsuarios.java
+│   │   │  │  ├── TelaPrincipal.java
+│   │   │  ├── res
+│   │   │  │   ├── layout
+│   │   │  │   │   ├── activity_main.xml     #Layout da tela principal
+│   │   │  │   └── values
+│   │   │  │       ├── strings.xml           # Strings usadas no app
+│   │   │  │       ├── colors.xml            # Cores definidas no projeto
+│   └── build.gradle                         # Configuração do Gradle
+└── README.md                                # Este arquivo
+```
+
+ 
+## 🎨 Design e Prototipagem
+ 
+O design é minimalista e fácil de usar, com foco na simplicidade.
+  
+## 👨‍💻 Desenvolvedor –
+
+**Arthur Soares** - Desenvolvedor - [GitHub](https://github.com/Pimentao1)
+
+ ## 📄 Licença
+ 
+
+ ## 📄 Licença
+ 
 # Como executar o projeto
+
+Você deve preencher todos os campos com o número de convidados e com o tempo de duração da sua festa, sendo assim, o projeto irá calcular a quantidade exata de quantos litros será necessário comprar.
 
 ## Back end
 Pré-requisitos: Java 11
 
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto back end
-cd backend
-
-# executar o projeto
-./mvnw spring-boot:run
-```
-
-## Front end web
-Pré-requisitos: npm / yarn
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto front end web
-cd front-web
-
-# instalar dependências
-yarn install
-
-# executar o projeto
-yarn start
-```
-
 # Autor
 
-Wellington Mazoni de Andrade
+Arthur Soares
 
-https://www.linkedin.com/in/wmazoni
+https://github.com/Pimentao1
